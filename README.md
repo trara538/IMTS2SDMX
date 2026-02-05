@@ -40,5 +40,5 @@ You can install the imtsShiny like so:
 
 This is a basic example which shows you how to organise your excel worksheet tables:
 
-[Download sample IMTS file](inst/extdata/sample_IMTS.xlsx)
+[Download sample IMTS file](https://github.com/trara538/IMTS2SDMX/blob/main/inst/extdata/sample_IMTS.xlsx)
 
