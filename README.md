@@ -8,18 +8,17 @@ The goal of IMTS2SDMX package is to allow users to be able to generate Internati
 Before using the IMTS2SDMX R package, you will need to reorganize your IMTS published tables as follows:
 
 1. Create an excel file
-2. Add the following worksheet in the excel file
-    i.   bot        - Balance of trade table
-    ii.  imports    - imports table
-    iii. exports    - domestic exports table
-    iv.  reexports  - reexports table
-    v.   bot_cty    - Balance of trade by partner countries table
-    vi.  trade_reg  - Trade be region table
-    vii. mode_trspt - Trade by mode of transport table
+2. Add the following worksheets in the excel file:
     
-Refer to this sample excel file [Download sample IMTS file](inst/extdata/sample_IMTS.xlsx)
+    1. **bot** – Balance of trade table  
+    2. **imports** – Imports table  
+    3. **exports** – Domestic exports table  
+    4. **reexports** – Re-exports table  
+    5. **bot_cty** – Balance of trade by partner countries table  
+    6. **trade_reg** – Trade by region table  
+    7. **mode_trspt** – Trade by mode of transport table
 
-
+    
 ## Installation
 
 You can install the imtsShiny like so:
@@ -39,9 +38,7 @@ You can install the imtsShiny like so:
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+This is a basic example which shows you how to organise your excel worksheet tables:
 
-``` r
-library(imtsShiny)
-## basic example code
-```
+[Download sample IMTS file](inst/extdata/sample_IMTS.xlsx)
+
